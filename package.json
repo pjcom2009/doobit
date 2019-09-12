@@ -1,0 +1,45 @@
+{
+  "name": "cypto-market-price",
+  "version": "1.0.0",
+  "description": "Market price compare",
+  "main": "index.js",
+  "repository": "https://github.com/ipiranhaa/crypto-market-price.git",
+  "author": "iPiranhaa",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "lodash": "^4.17.4",
+    "node-currency-swap": "^1.0.6",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.17.5",
+    "socket.io": "^2.0.3",
+    "uglify-es": "^3.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-sequence": "^0.4.6",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^1.0.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js",
+    "build": "gulp build",
+    "dev": "gulp dev"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "resolutions": {
+    "natives": "1.1.3"
+  }
+}
