@@ -7,7 +7,7 @@
   "author": "iPiranhaa",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.4",
+    "express": "^4.17.3",
     "lodash": "^4.17.4",
     "node-currency-swap": "^1.0.6",
     "node-sass": "^4.5.3",
